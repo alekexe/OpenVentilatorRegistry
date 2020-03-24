@@ -13,7 +13,7 @@
     <div class="navbar d-flex flex-column flex-md-row align-items-center p-3 pl-5 pr-5 ovr-navbar border-bottom box-shadow">
         <h5 class="my-0 mr-md-auto ovr-navbar-title"><b>OpenVentilatorRegistry</b>.org</h5>
 
-        <a class="navbar-links font-weight-bold" href="#">Facility Registration</a>
+        <a class="navbar-links font-weight-bold" href="#">Vendor Registration</a>
         <span>|</span>
         <a class="navbar-links" href="#">Log in</a>
     </div>
@@ -25,17 +25,17 @@
         <div class="col-md-12">
           <form class="needs-validation" novalidate="">
             <div class="row">
-              <div class="col-md-4 mb-3">
-                <label for="firstName">Company or Organization*</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="col-md-4 mb-3 p-md-2">
+                <label class="ovr-label" for="firstName">Company or Organization*</label>
+                <input type="text" class="form-control" value="Good Samaritan Inc." required="">
               </div>
-              <div class="col-md-4 mb-3">
-                <label for="lastName">Contact Person</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="col-md-4 mb-3 p-md-2 ">
+                <label class="ovr-label" for="lastName">Contact Person</label>
+                <input type="text" class="form-control" value="John Deere" required="">
               </div>
-                <div class="col-md-4 mb-3">
-                <label for="lastName">Contact email*</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="col-md-4 mb-3 p-md-2">
+                <label class="ovr-label" for="lastName">Contact email*</label>
+                <input type="text" class="form-control" value="john.deere@samaritan.org" required="">
               </div>
             </div>
               
@@ -43,21 +43,21 @@
               <hr>
 
                         <div class="row">
-              <div class="col-md-4 mb-3">
-                <label for="firstName">Units available to supply*</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="col-md-4 mb-3 p-md-2">
+                <label class="ovr-label" for="firstName">Units available to supply*</label>
+                <input type="text" class="form-control" value="12" required="">
               </div>
-              <div class="col-md-4 mb-3">
-                <label for="lastName">Deliverable to(Region, States)</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="col-md-4 mb-3 p-md-2">
+                <label class="ovr-label" for="lastName">Deliverable to(Region, States)</label>
+                <input type="text" class="form-control" value="NY, NJ, MD, PA, CT" required="">
 
               </div>
             </div>
               <div class="row">
-              <div class="col-md-12 mb-3">
+              <div class="col-md-12 mb-3 p-md-2">
             <div class="custom-control custom-checkbox mb-2">
               <input type="checkbox" class="custom-control-input" id="same-address">
-              <label class="custom-control-label" for="same-address">I am authorized to provide ventilator deliveries<br>on behalf of this company or organization*</label>
+              <label  class="custom-control-label" for="same-address">I am authorized to provide ventilator deliveries<br>on behalf of this company or organization*</label>
                   </div>
                   
                   <div class="custom-control custom-checkbox">
@@ -66,10 +66,10 @@
                   </div></div></div>
               
               <div class="row">
-              <div class="col-md-4 mb-3">
+              <div class="col-md-4 mb-3 p-md-2">
                 <button class="btn btn-green btn-lg btn-block" type="submit">Provide supply</button>
               </div>
-              <div class="col-md-8 mb-3">
+              <div class="col-md-8 mb-3 p-md-2">
                   <p class="register-notice">After registration, a volunteer will get in touch with you to verify your identity.<br>Check our <b>facilities page</b> for availabilities while waiting for notification. 
 </p>
               </div>
